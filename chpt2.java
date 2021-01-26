@@ -3,27 +3,30 @@
  *of 0.027 for one year. The interst and the value of the investment after one year are printed to standard output.
  */
 public class chpt2 {
-    public static void main(String[] args)
+    public static void main(String[] args) {
 
-    /* Declare the variables. */
+        /* Declare the variables. */
 
-    double principal;   //the value of the investment
-    double rate;        //the annual interest rate
-    double interest;    //interest earned in one year
+        double principal;   //the value of the investment
+        double rate;        //the annual interest rate
+        double interest;    //interest earned in one year
 
-    /* Declare the computations. */
+        /* Declare the computations. */
 
-    principal = 17000;
-    rate = 0.027;
-    interest = principal * rate;    //Compute the interest.
+        principal = 17000;
+        rate = 0.027;
+        interest = principal * rate;    //Compute the interest.
 
-    principal = principal + interest;
-            //compute value of investment afterone year, with interst.
-            //(Note: The new value replaces the old value of prinicipal)
+        principal = principal + interest;
+                //compute value of investment afterone year, with interst.
+                //(Note: The new value replaces the old value of prinicipal)
 
-    /* Output the results */
+        /* Output the results */
 
-    System.out.print("The interest earned is $");
-    System.out.println(interest);
-    System
-}
+        System.out.print("The interest earned is $");
+        System.out.println(interest);
+        System.out.print("the value of the investment after one year is $");
+        System.out.println(principal);
+
+    } // end of main()
+} // end of class chpt2
