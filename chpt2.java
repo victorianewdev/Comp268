@@ -30,3 +30,5 @@ public class chpt2 {
 
     } // end of main()
 } // end of class chpt2
+
+//correcting some errors with pushing to github
