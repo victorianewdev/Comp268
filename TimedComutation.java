@@ -44,5 +44,4 @@ public class TimedComputation {
     System.out.print("seconds");
 
   }
-
 }
