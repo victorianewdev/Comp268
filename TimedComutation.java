@@ -3,7 +3,7 @@
 * Math.PI.  It then reports the number of seconds that the computer spent on this task.
 */
 
-public class TimedComputation {
+public class TimedComutation {
 
   public static void main(String[] args) {
 
@@ -38,10 +38,10 @@ public class TimedComputation {
     seconds = compTime / 1000000000.0;
 
     System.out.print("\nRun time in nanoseconds was: ");
-    System.out.println(comptime);
+    System.out.println(compTime);
     System.out.println("(This is probably not perfectly accurate!");
     System.out.println("\nRun time in seconds was:  ");
-    System.out.print("seconds");
+    System.out.print(seconds);
 
   }
 }
