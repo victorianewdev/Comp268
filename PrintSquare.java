@@ -11,7 +11,7 @@ import textio.TextIO;
         int userInput;       // The number input by the user.
         int square;         // the userInput, multiplied by itself.
 
-        System.out.print("Please type a number: ");
+        System.out.print("\n\nPlease type a number: ");
         userInput = TextIO.getlnInt();
         square = userInput * userInput;
 
