@@ -15,5 +15,5 @@ public class EnumDemo {
         System.out.println("Isn't it nice to get to " + tgif);
         System.out.println( tgif + " is the " + tgif.ordinal() + "-th day of the week.");
         
-    }
-}
+    }//end main()
+}//end class TimedComputation
