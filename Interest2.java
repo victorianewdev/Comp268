@@ -22,7 +22,7 @@
         interest = principal * rate;        // Compute this year's interest.
         principal = principal + interest;   // Add it to principal.
 
-        System.out.printf("The amount of interest is $%1.2%n", interest);
-        System.out.printf("The value after one year is $%1.2%n", principal);
+        System.out.printf("The amount of interest is $%1.2f%n", interest);
+        System.out.printf("The value after one year is $%1.2f%n", principal);
     }
  }
