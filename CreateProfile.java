@@ -14,7 +14,7 @@ public class CreateProfile {
     /* Gather response from the user. */
 
     TextIO.put("What is your name?        ");
-    name = TextIO.genln();
+    name = TextIO.getln();
 
     TextIO.put("What is your email address?       ");
     email = TextIO.getln();
@@ -36,8 +36,9 @@ public class CreateProfile {
 
     /* Print a final message to standard output. */
 
-    TextIO.writeStandardOutput()
-    TextIO.putln("Thank you.  Your profile has been written to profile.txt");ß 
+    TextIO.writeStandardOutput();
+    TextIO.putln("Thank you.  Your profile has been written to profile.txt");
+
       }
   }
 }
