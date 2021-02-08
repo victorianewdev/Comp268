@@ -1,3 +1,6 @@
+
+
+
 import textio.TextIO;
 
 public class CreateProfile {
@@ -9,7 +12,10 @@ public class CreateProfile {
     double salary;    // The user's yearly salary.
     String favColor;  // The user's favorite color.
 
-    TextIO.putln("Good Afternoon!  This program will create your profile file, if you will just answer a few simple questions. \n");
+    TextIO.putln("Good Afternoon!  This program will create");
+    TextIO.putln("your profile file, if you will just answer");
+    TextIO.putln("a few simple questions.");
+    TextIO.putln();
 
     /* Gather response from the user. */
 
@@ -39,6 +45,6 @@ public class CreateProfile {
     TextIO.writeStandardOutput();
     TextIO.putln("Thank you.  Your profile has been written to profile.txt");
 
-      }
+
   }
 }
