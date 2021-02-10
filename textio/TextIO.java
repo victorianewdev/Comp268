@@ -515,7 +515,7 @@ public class TextIO {
         while (ch != EOF && Character.isWhitespace(ch)) {
             readChar();
             if (ch == '\n' && readingStandardInput && writingStandardOutput) {
-                out.print("? ");
+                out.print(" ");
                 out.flush();
             }
             ch = lookChar();
