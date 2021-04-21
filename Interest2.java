@@ -12,6 +12,7 @@
         double principal;       // The value of the investment
         double rate;            // The annual interest rate.
         double interest;        // The interest earned during the year.
+        
 
         System.out.print("Enter the initial investment: ");
         principal = TextIO.getlnDouble();
@@ -24,5 +25,9 @@
 
         System.out.printf("The amount of interest is $%1.2f%n", interest);
         System.out.printf("The value after one year is $%1.2f%n", principal);
+
+        
+
+
     }
  }
