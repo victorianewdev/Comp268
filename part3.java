@@ -18,12 +18,13 @@ public class part3 {
          * is Smith, which has 5 characters Your initials are MS
          */
         
-        String firstName, name;
-        String last;
+        //String firstName;
+        String name;
+        String firstName, last;
         int position;
 
 
-        System.out.print("\n\n\nPlease enter your first and last name, seperated by a space.  ");
+        TextIO.put("\n\n\nPlease enter your first and last name, seperated by a space.  ");
         name = TextIO.getln();
 
         position = name.indexOf(" ");
@@ -33,7 +34,7 @@ public class part3 {
         System.out.println("\n\nYour first name is " + firstName + ", which is " + firstName.length() + " characters.\nYour last name is " + last + ", which is " + last.length() + " characters.");
         System.out.println("Your initials are "+ firstName.charAt(0) + last.charAt(1) + "\n\n");
 
-        //System.out.println("\n\n your name is " + firstName);
+        //System.out.println("\n\nYour name is " + name);
 
 }
 }
