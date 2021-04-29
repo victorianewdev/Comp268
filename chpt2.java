@@ -106,12 +106,11 @@ import textio.TextIO;
         //String firstName, fullName;
         //String last;
         //int position;
-        String confused;
 
-        System.out.print("\n\n\nPlease enter your first and last name, seperated by a space.");
-        confused = TextIO.getln();
+        System.out.print("\n\n\nPlease enter your first and last name, seperated by a space.  ");
+        name = TextIO.getln();
 
-        System.out.println("Your name is " + confused);
+        System.out.println("Your name is " + name);
 
         //position = fullName.indexOf(" ");
         //firstName = fullName.substring(0, position);
